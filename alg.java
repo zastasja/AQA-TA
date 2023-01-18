@@ -29,15 +29,11 @@ public class alg {
     }
 
 // 3. Составить алгоритм: на входе есть числовой массив, необходимо вывести элементы массива кратные 3
-public static void aliquoteToThree(String[] args) {
+public static void aliquoteToThree(String[] args) throws IOException {
     System.out.println("Введите числа через пробел:");
     Scanner input = new Scanner(System.in);
     ArrayList<Double> nums = new ArrayList<>();
-    while (input.hasNextDouble()) {
-        nums.add(input.nextDouble());
+    System.out.println(nums);
     }
-
-
 }
 
-}
