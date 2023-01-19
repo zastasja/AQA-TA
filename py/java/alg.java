@@ -13,6 +13,7 @@ public class alg {
         if (n > 7) {
             System.out.println("Привет");
         }
+        sc.close();
     }
 //2. Составить алгоритм: если введенное имя совпадает с Вячеслав, то вывести “Привет, Вячеслав”,
 // если нет, то вывести "Нет такого имени"
@@ -25,6 +26,7 @@ public class alg {
         } else {
             System.out.println("Нет такого имени");
         }
+        sc.close();
 
     }
 
@@ -34,6 +36,9 @@ public static void aliquoteToThree(String[] args) throws IOException {
     Scanner input = new Scanner(System.in);
     ArrayList<Double> nums = new ArrayList<>();
     System.out.println(nums);
-    }
+    input.close();
+    
+}
+    
 }
 

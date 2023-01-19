@@ -1,14 +1,16 @@
 import builtins
-import alg
+import alg as alg
 import mock
 
 
 """ POSITIVE TESTS """
+
 def test_number_over_seven():
-    with mock.patch.object(builtins, 'input', lambda: '8'):
+    with mock.patch.object(builtins, 'input', lambda _: '8'):
         print(alg.number_over_seven())
         assert alg.number_over_seven() == "Привет"
-#
+
+
 # def test_name_checker():
 #     with mock.patch.object(builtins, 'input', lambda: 'Вячеслав'):
 #         assert alg.name_checker() == "Привет, Вячеслав"
