@@ -30,6 +30,7 @@ public class alg {
 
     }
 
+
 // 3. Составить алгоритм: на входе есть числовой массив, необходимо вывести элементы массива кратные 3
 public static void aliquoteToThree(String[] args) throws IOException {
     System.out.println("Введите числа через пробел:");
